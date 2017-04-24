@@ -1,5 +1,5 @@
 #!/bin/bash
-## Script elaborado por Morvan ##
+### Script elaborado por Morvan ###
 arq=$HOSTNAME.confs.zip
 March=`echo $MACHTYPE | cut -c8-13`
 echo "Salvando Dados no Arquivo $arq com Arquitetura $March"
