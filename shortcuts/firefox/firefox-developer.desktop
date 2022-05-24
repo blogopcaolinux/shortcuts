@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Name=Firefox Developer
+GenericName=Navegador Web
+Comment=Navegue na Internet
+Exec=firefox-developer %u
+Icon=/opt/firefox-developer/browser/chrome/icons/default/default128.png
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true
+StartupWMClass=firefox-developer
+Categories=Network;WebBrowser;
+Keywords=web;browser;internet;
+Actions=new-window;new-private-window;profile-manager-window;
+
+[Desktop Action new-window]
+Name=Nova janela
+Exec=firefox-developer --new-window --class="firefox-developer" %u
+
+[Desktop Action new-private-window]
+Name=Nova janela privativa
+Exec=firefox-developer --private-window --class="firefox-developer" %u
+
+[Desktop Action profile-manager-window]
+Name=Open the Profile Manager
+Exec=firefox-developer --ProfileManager
