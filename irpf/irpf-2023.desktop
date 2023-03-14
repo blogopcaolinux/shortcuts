@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=IRPF2023
+Exec=sh -c "java -jar /opt/IRPF2023/irpf.jar"
+Icon=/opt/IRPF2023/IRPF.png
+Categories=Application;
